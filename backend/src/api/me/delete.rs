@@ -8,7 +8,6 @@ use crate::server::AppState;
 
 /// Delete the current account.
 ///
-/// Cleanup strategy (simple + safe for a semester project):
 /// - Delete organizations owned by the user (and all issues inside them)
 /// - Remove the user from member lists of other organizations
 /// - Delete the user document
